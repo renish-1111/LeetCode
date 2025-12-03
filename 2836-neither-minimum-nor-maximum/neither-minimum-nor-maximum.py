@@ -17,11 +17,11 @@ class Solution:
             min_val = nums[0]
 
 
-        for i in range(2,n):
-            if nums[i] < max_val and nums[i] > min_val:
-                return nums[i]
-            elif nums[i] > max_val:
-                return max_val
-            else:
-                return min_val
+     
+        if nums[2] < max_val and nums[2] > min_val:
+            return nums[2]
+        elif nums[2] > max_val:
+            return max_val
+        else:
+            return min_val
 
